@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 
@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="bg-slate-950 p-3 fixed top-0 w-full z-30 font font-mono font-extrabold text-lg text-shadow-outline border-b border-slate-800">
       <div className="flex container mx-auto flex-row justify-between items-center">
         <div className="flex-none">
-          <h1>Adam Sutherby</h1>
+          <h1>Jagdeep Baryar</h1>
         </div>
         <ul className="flex flex-row justify-center items-center flex-grow">
           <li className="px-4">About</li>
@@ -19,17 +19,12 @@ export default function Navbar() {
       <div>
         <ul className="flex flex-row justify-center items-center flex-grow">
           <li className="px-4">
-            <a href="https://www.linkedin.com/in/adam-sutherby-86774ab9/">
-              <FaLinkedin size={30}/>
-            </a>
-          </li>
-          <li className="px-4">
-            <a href="https://github.com/AdamSutherby">
+            <a href="https://github.com/JAGDEEP-BARYAR">
               <FaGithub size={30}/>
             </a>
           </li>
           <li className="px-4">
-            <a href="mailto:adamsutherby@gmail.com">
+            <a href="jagdeepbaryar98@gmail.com">
               <MdEmail size={30}/>
             </a>
           </li>
