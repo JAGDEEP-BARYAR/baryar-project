@@ -31,26 +31,26 @@ const iconComponents = {
 const projectList = [
   {
     projectName: "Project 1",
-    imgSrc: "https://via.placeholder.com/1000", 
+    imgSrc: "Pictures/project1.png", 
     gifSrc: "https://via.placeholder.com/2000",
     description: "Description of Project 1: lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    githubLink: "https://github.com/project1",
+    githubLink: "https://github.com/JAGDEEP-BARYAR/baryar-project",
     videoLink: "https://www.youtube.com/watch?v=F9gq_0HXoRI",
   },
   {
     projectName: "Project 2",
-    imgSrc: "https://via.placeholder.com/1000",
+    imgSrc: "Pictures/project2.png",
     gifSrc: "https://via.placeholder.com/2000",
     description: "Description of Project 2: lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    githubLink: "https://github.com/project2",
+    githubLink: "https://github.com/JAGDEEP-BARYAR/baryar-project",
     videoLink: "https://www.youtube.com/watch?v=HcaFzp-xhB0",
   },
   {
     projectName: "Project 3",
-    imgSrc: "https://via.placeholder.com/1000",
+    imgSrc: "Pictures/project3.png",
     gifSrc: "https://via.placeholder.com/2000",
     description: "Description of Project 3: lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    githubLink: "https://github.com/project2",
+    githubLink: "https://github.com/JAGDEEP-BARYAR/baryar-project",
     videoLink: "https://www.youtube.com/watch?v=6xoB4ZiKKn0",
   },
 ];
@@ -70,7 +70,7 @@ const Project = ({ project, index }) => {
             <img src={isHovered ? project.gifSrc : project.imgSrc}
                  onMouseEnter={() => setIsHovered(true)}
                  onMouseLeave={() => setIsHovered(false)}
-                 style={{ maxWidth: "100%" }}
+                 style={{ height:'400px', width:'400px'}}
                  className='border-4 rounded-lg'
             />
           </div>
