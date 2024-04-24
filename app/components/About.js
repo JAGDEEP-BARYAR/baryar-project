@@ -1,7 +1,7 @@
 import React from 'react';
-import Navbar from './NavBar';
 export default function About() {
     return (
+
         <div id="about">
             <h1 className="text-4xl font-mono text-center mt-60 text-pink-500 font-bold">JAGDEEP BARYAR</h1>
             <div className="flex flex-row mx-auto max-w-[60%] mt-10 justify-center">
@@ -11,7 +11,7 @@ export default function About() {
                     Let's connect and discover how we can collaborate to drive meaningful change through our work!
                 </p>
                 <img src="Pictures/ProfileImage.png" alt="Profile" className="w-64 h-64 pl-1"  style={{height: '450px'}}/>
-            </div>
+        </div>
         </div>
     );
 }
