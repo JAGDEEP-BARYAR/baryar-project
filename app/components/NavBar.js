@@ -4,17 +4,17 @@ import { MdEmail } from "react-icons/md";
 
 export default function Navbar() {
   return (
-    <nav className="bg-slate-950 p-3 fixed top-0 w-full z-30 font font-mono font-extrabold text-lg text-shadow-outline border-b border-slate-800">
+    <nav className="bg-brown-950 p-3 fixed top-0 w-full z-30 font font-mono font-extrabold text-lg text-shadow-outline border-b border-slate-800">
       <div className="flex container mx-auto flex-row justify-between items-center">
         <div className="flex-none">
           <h1>Jagdeep Baryar</h1>
         </div>
         <ul className="flex flex-row justify-center items-center flex-grow">
-          <li className="px-4">About</li>
+        <li className="px-4"><a href="#about">About</a></li>
           <li className="px-4">|</li>
-          <li className="px-4">Projects</li>
+          <li className="px-4"><a href="#projects">Projects</a></li>
           <li className="px-4">|</li>
-          <li className="px-4">Contact</li>
+          <li className="px-4"> <a href="#proficiency">Proficiency</a></li>
         </ul>
       <div>
         <ul className="flex flex-row justify-center items-center flex-grow">
@@ -24,7 +24,7 @@ export default function Navbar() {
             </a>
           </li>
           <li className="px-4">
-            <a href="jagdeepbaryar98@gmail.com">
+            <a href="mailto:jagdeepbaryar98@gmail.com">
               <MdEmail size={30}/>
             </a>
           </li>

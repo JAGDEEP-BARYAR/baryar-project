@@ -61,7 +61,7 @@ const Project = ({ project, index }) => {
   const descriptionPositionClass = index % 2 === 0 ? 'order-2' : 'order-1';
 
   return (
-    <div className='flex flex-col items-center mx-auto max-w-[75%] p-20 hide'>
+    <div id="projects" className='flex flex-col items-center mx-auto max-w-[75%] p-20 hide'>
         <h2 className='p-6 font-bold' style={{ fontSize: "calc(0.6em + 1vw)" }}>
           {project.projectName}
         </h2>
