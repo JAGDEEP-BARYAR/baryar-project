@@ -1,5 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { FaLinkedinIn } from "react-icons/fa";
 
 
 export default function Navbar() {
@@ -12,10 +12,14 @@ export default function Navbar() {
         <ul className="flex flex-row justify-center items-center flex-grow">
         <li className="px-4"><a href="#about">About</a></li>
           <li className="px-4">|</li>
+          <li className="px-4"> <a href="#education">Education</a></li>
+          <li className="px-4">|</li>
           <li className="px-4"><a href="#projects">Projects</a></li>
           <li className="px-4">|</li>
+          <li className="px-4"> <a href="#contact">Contact</a></li>
+          <li className="px-4">|</li>
           <li className="px-4"> <a href="#proficiency">Proficiency</a></li>
-        </ul>
+      </ul>
       <div>
         <ul className="flex flex-row justify-center items-center flex-grow">
           <li className="px-4">
@@ -24,8 +28,8 @@ export default function Navbar() {
             </a>
           </li>
           <li className="px-4">
-            <a href="mailto:jagdeepbaryar98@gmail.com">
-              <MdEmail size={30}/>
+            <a href="https://www.linkedin.com/in/jagdeep-kaur-baryar-0b5b64269/">
+              <FaLinkedinIn size={30}/>
             </a>
           </li>
         </ul>
